@@ -3,71 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sinduja Rangarajan — Portfolio</title>
-  <meta name="description" content="Portfolio of Sinduja Rangarajan, investigative data journalist and data developer.">
-  <link rel="stylesheet" href="style.css">
+  <title>Projects — Sinduja Rangarajan</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <header class="site-header">
-    <h1>Sinduja Rangarajan</h1>
-    <p class="tagline">Investigative data journalist and data developer</p>
+    <h1>Projects</h1>
     <nav class="nav">
-      <a href="#about">About</a>
-      <a href="projects/index.html">Projects</a>
-      <a href="#awards">Awards</a>
-      <a href="#contact">Contact</a>
-      <a href="resume/resume.pdf" target="_blank" rel="noopener">Resume</a>
+      <a href="../index.html">Home</a>
     </nav>
   </header>
-
-  <main>
-    <section id="about" class="section">
-      <h2>About</h2>
-      <p>Award winning investigative data journalist with 10+ years of impact driven reporting. Expert in data analysis, scraping, public records and FOIA. My work has been cited by the California Senate and the Australian Parliament and recognized as a Pulitzer Prize finalist. Loeb honoree, Overseas Press Club winner and Edward R. Murrow Award recipient.</p>
-    </section>
-
-    <section id="featured" class="section">
-      <h2>Featured work</h2>
-      <ul class="card-list">
-        <li class="card">
-          <h3>Water Grab investigations</h3>
-          <p>Exposed corporate land and water ownership in California and Australia. Cited by lawmakers and selected as a Pulitzer finalist in 2024.</p>
-          <p><a href="#" target="_blank" rel="noopener">Read more</a></p>
-        </li><li class="card">
-          <h3>Carbon credits profiteering</h3>
-          <p>Tracked money and methods in global carbon markets. Overseas Press Club winner in 2023.</p>
-          <p><a href="#" target="_blank" rel="noopener">Read more</a></p>
-        </li><li class="card">
-          <h3>Immigration court disparities</h3>
-          <p>Analyzed millions of asylum decisions to reveal detention based disparities. New York Press Club award in 2025.</p>
-          <p><a href="#" target="_blank" rel="noopener">Read more</a></p>
-        </li><li class="card">
-          <h3>Microfinance capital flows</h3>
-          <p>Built a custom database from scraped disclosures to follow opaque financial flows. Loeb honoree in 2023.</p>
-          <p><a href="#" target="_blank" rel="noopener">Read more</a></p>
-        </li>
-      </ul>
-    </section>
-
-    <section id="awards" class="section">
-      <h2>Awards and recognition</h2>
-      <ul>
-        <li>Pulitzer Prize Finalist, 2024 — Water Grab</li><li>Overseas Press Club Winner, 2023 — Carbon Credits</li><li>Loeb Awards Honoree, 2023 — Microfinance</li><li>SABEW Awards, 2024 — International and Environmental reporting</li><li>United Nations Correspondents Awards, 2024 — Water Grab</li><li>Edward R. Murrow Award, 2017 — Silicon Valley Diversity</li>
-      </ul>
-    </section>
-
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:cynduja@gmail.com">cynduja@gmail.com</a></p>
-      <p>LinkedIn: <a href="#" target="_blank" rel="noopener">Add your profile</a></p>
-      <p>GitHub: <a href="#" target="_blank" rel="noopener">Add your handle</a></p>
-    </section>
+  <main class="section">
+    <p>Selected investigations and data projects. Link to stories, interactives or repositories.</p>
+    <ul class="card-list">
+      <li class="card">
+        <h3>Water Grab investigations</h3>
+        <p>Corporate land and water ownership in California and Australia. Role: lead data reporter. Methods: scraping, GIS and records analysis.</p>
+        <p><a href="#" target="_blank" rel="noopener">Open</a></p>
+      </li>
+      <li class="card">
+        <h3>Carbon credits profiteering</h3>
+        <p>Followed money and methods in global carbon markets. Role: data reporter. Methods: data cleaning and cross border records.</p>
+        <p><a href="#" target="_blank" rel="noopener">Open</a></p>
+      </li>
+      <li class="card">
+        <h3>Immigration court disparities</h3>
+        <p>Analyzed asylum decisions and detention status. Role: data analyst. Methods: database builds and statistical analysis.</p>
+        <p><a href="#" target="_blank" rel="noopener">Open</a></p>
+      </li>
+    </ul>
   </main>
-
   <footer class="site-footer">
     <p>&copy; <span id="year"></span> Sinduja Rangarajan</p>
   </footer>
-
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
